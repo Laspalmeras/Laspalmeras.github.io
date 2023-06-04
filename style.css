@@ -14,7 +14,7 @@ body {
     font-family: 'montserrat',sans-serif;
     text-transform: uppercase;
     font-weight: 700;
-    background-color: #55efc4;
+    background-color: #e98503;
     padding: 1rem 2rem;
     display: inline-block;
     align-self: center;
@@ -25,8 +25,8 @@ body {
 /*Termina Reutilizables*/
 
 /*Comienza Primera seccion*/
-.primera-seccionn-contenido>hr{
-    width: 4.5rem;
+hr{
+    width: 80%;
     border-color: white;
 }
 #primera-seccion {
@@ -86,11 +86,11 @@ nav > a:hover {
 /*Termina Primera seccion*/
 /*imagenes teatro*/
 .img-1{
-    width: 600px;
+    width: 100%;
     height: 250;
 }
 .img-2{
-    width: 600px;
+    width: 100%;
     height: 250;
 }
 
@@ -119,7 +119,7 @@ nav > a:hover {
     margin: auto;
     display: flex;
     flex-direction: column;
-    width: 80%;
+    width: auto;
     padding-top: 5rem;
     padding-bottom: 5rem;
 }
@@ -136,17 +136,19 @@ nav > a:hover {
 .titulo>hr{
     width: 4.5rem;
     border-color: black;
+    background-color: #e98503;
 }
 #Container-tercera-seccion{
     text-align: center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
+    background-color: #e98503;
+    height: 100%;
+    width: 100%;
 }
-.img-tercera{
-    padding-right: 1rem;
-    padding-left: 1rem;
-}
-.img-tercera>h6{
+
+.img-tercera>{
     text-align: center;
     font-family: 'montserrat',sans-serif;
     font-size: 1.3rem;
@@ -231,10 +233,10 @@ nav > a:hover {
     align-items: center;
 }
 #quinta-secciom-derecha>img{
-    max-width: 100%;
+    max-width: 80%;
 }
-#quinta-secciom-derecha>hr {
-    width: 5.5rem;
+#quinta-secciom-derecha>hr{
+    width: 50%;
     border-color: white;
     margin-left: 4;
     margin-bottom: 7rem;
@@ -251,8 +253,8 @@ nav > a:hover {
  
 /*Mapa*/
 .mapa{
-    margin-top: 10px;
-    margin-bottom: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
     width: auto;
     
 }
@@ -270,6 +272,12 @@ footer{
     text-align: center;
 }
 /*termina footer*/
+.primera_contactos {
+    background: linear-gradient(rgba(68,13,13,0.35),rgba(38,2,2,0.446)),url(robotica-1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 100vh;
+    color: white;
+}
 
 
 
